@@ -72,6 +72,16 @@ fetch_data_from_api → transform_data → load_data_to_database
   - `bujur` (longitude)
   - Other relevant school details
 
+## **Screenshots**
+1. **DAG Testing in Airflow**
+   ![DAG Testing](https://github.com/hijirdella/ETL-Pipeline-Airflow-School-API/blob/b50aae3448c98116a0190cdd2a5d843f41216085/Documentation/DAG%20Testing.jpg)
+
+2. **Success Load in Database**
+   ![Database Load](https://github.com/hijirdella/ETL-Pipeline-Airflow-School-API/blob/b50aae3448c98116a0190cdd2a5d843f41216085/Documentation/Success%20Load%20in%20Database.jpg)
+
+3. **Transformed Data**
+   ![Transformed Data](https://github.com/hijirdella/ETL-Pipeline-Airflow-School-API/blob/b50aae3448c98116a0190cdd2a5d843f41216085/Documentation/Transformed%20Data.jpg)
+
 ## **Benefits of the ETL Pipeline**
 - Automates the data ingestion process for consistent updates.
 - Ensures data quality through validation and transformations.
@@ -84,5 +94,4 @@ fetch_data_from_api → transform_data → load_data_to_database
 ## **Special Thanks to My Mentor**
 - Mohamad Ikhsan Nurulloh: [https://www.linkedin.com/in/mohamad-ikhsan-nurulloh/](https://www.linkedin.com/in/mohamad-ikhsan-nurulloh/)
 
-## **License**
-This project is licensed under the MIT License.
+
