@@ -17,7 +17,6 @@ This repository demonstrates an ETL (Extract, Transform, Load) pipeline built wi
 - **Apache Airflow**: Workflow orchestration and task scheduling.
 - **PostgreSQL**: Target database for storing the transformed data.
 - **Python**: Task definitions, data extraction, and transformations.
-- **Docker**: For containerizing and deploying the Airflow environment.
 
 ## **ETL Pipeline Workflow**
 1. **Extract**: Fetch raw school data in JSON format from the API.
@@ -38,7 +37,6 @@ fetch_data_from_api → transform_data → load_data_to_database
 ## **Setup and Installation**
 
 ### Prerequisites
-- Docker and Docker Compose installed
 - PostgreSQL database setup and running
 
 ### Steps
@@ -48,25 +46,19 @@ fetch_data_from_api → transform_data → load_data_to_database
    cd <repository-name>
    ```
 
-2. Start the Airflow environment:
-   ```
-   docker-compose up -d
-   ```
-
-3. Configure the PostgreSQL connection in Airflow:
+2. Configure the PostgreSQL connection in Airflow:
    - Go to Airflow UI → Admin → Connections.
    - Add a new connection with ID `postgres` and provide the database details.
 
-4. Deploy the DAG by placing the script in the Airflow `dags` folder.
+3. Deploy the DAG by placing the script in the Airflow `dags` folder.
 
-5. Trigger the DAG from the Airflow UI to start the ETL process.
+4. Trigger the DAG from the Airflow UI to start the ETL process.
 
 ## **File Structure**
 ```
 ├── dags
 │   ├── api_to_database_dag.py  # Airflow DAG script
 ├── README.md                   # Project documentation
-├── docker-compose.yml          # Airflow Docker setup
 ```
 
 ## **API Information**
@@ -87,6 +79,10 @@ fetch_data_from_api → transform_data → load_data_to_database
 
 ## **Contributors**
 - Hijir Della Wirasti
+  - LinkedIn: [https://www.linkedin.com/in/hijirdella/](https://www.linkedin.com/in/hijirdella/)
+
+## **Special Thanks to My Mentor**
+- Mohamad Ikhsan Nurulloh: [https://www.linkedin.com/in/mohamad-ikhsan-nurulloh/](https://www.linkedin.com/in/mohamad-ikhsan-nurulloh/)
 
 ## **License**
 This project is licensed under the MIT License.
