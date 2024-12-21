@@ -1,5 +1,7 @@
 # ETL Pipeline with Apache Airflow
 
+![Cover](https://github.com/hijirdella/ETL-Pipeline-Airflow-School-API/blob/febf6e3da1336f43658e113f643664ee976f323b/Documentation/Cover%20-%20Orchestrating%20ETL%20for%20School%20Data%20Using%20Airflow.jpg)
+
 ## **Project Overview**
 This repository demonstrates an ETL (Extract, Transform, Load) pipeline built with Apache Airflow to automate the process of fetching school data from an API, transforming the data, and loading it into a PostgreSQL database. 
 
@@ -87,7 +89,7 @@ fetch_data_from_api → transform_data → load_data_to_database
 - Ensures data quality through validation and transformations.
 - Provides a scalable and modular workflow for future extensions.
 
-## **Contributors**
+## **Contributor**
 - Hijir Della Wirasti
   - LinkedIn: [https://www.linkedin.com/in/hijirdella/](https://www.linkedin.com/in/hijirdella/)
 
