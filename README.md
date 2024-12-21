@@ -58,9 +58,14 @@ fetch_data_from_api → transform_data → load_data_to_database
 
 ## **File Structure**
 ```
-├── dags
-│   ├── api_to_database_dag.py  # Airflow DAG script
-├── README.md                   # Project documentation
+├── Documentation
+│   ├── Cover - Orchestrating ETL for School Data Using Airflow.jpg
+│   ├── DAG Testing.jpg
+│   ├── Success Load in Database.jpg
+│   ├── Transformed Data.jpg
+├── [Deck] Orchestrating ETL for School Data Using Airflow.pdf
+├── api_to_database_dag_sekolah_hijir.py
+├── README.md
 ```
 
 ## **API Information**
@@ -95,5 +100,4 @@ fetch_data_from_api → transform_data → load_data_to_database
 
 ## **Special Thanks to My Mentor**
 - Mohamad Ikhsan Nurulloh: [https://www.linkedin.com/in/mohamad-ikhsan-nurulloh/](https://www.linkedin.com/in/mohamad-ikhsan-nurulloh/)
-
 
